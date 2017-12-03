@@ -1,0 +1,20 @@
+<script type="text/javascript">
+function check()
+{
+var id=document.getElementId("id");
+var pwd=document.getElementId("pwd");
+if(id.value=="")
+{
+alert("You have not entered your ID");
+id.focus();
+return false;
+}
+if(pwd.value=="")
+{
+alert("You have not entered your Password!");
+pwd.focus();
+return false;
+}
+
+}
+</script>
